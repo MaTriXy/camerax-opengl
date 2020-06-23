@@ -83,7 +83,7 @@ public class OpenGLActivity extends AppCompatActivity {
                     Manifest.permission.CAMERA,
             };
 
-    private static final int FPS_NUM_SAMPLES = 10;
+    private static final int FPS_NUM_SAMPLES = 30;
     private OpenGLRenderer mRenderer;
     private DisplayManager.DisplayListener mDisplayListener;
     private ProcessCameraProvider mCameraProvider;
@@ -221,7 +221,7 @@ public class OpenGLActivity extends AppCompatActivity {
 
         // Set the aspect ratio of Preview to match the aspect ratio of the view finder (defined
         // with ConstraintLayout).
-        Preview preview = new Preview.Builder().setTargetAspectRatio(AspectRatio.RATIO_4_3).build();
+        Preview preview = new Preview.Builder().setTargetAspectRatio(AspectRatio.RATIO_16_9).build();
 
         mRenderer.attachInputPreview(preview);
 
