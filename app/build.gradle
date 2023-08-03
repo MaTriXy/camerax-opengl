@@ -90,7 +90,7 @@ dependencies {
 
     implementation("androidx.concurrent:concurrent-futures:1.0.0")
 
-    implementation("com.google.guava:guava:29.0-android")
+    implementation("com.google.guava:guava:29.0-jre")
 
     // 3P library
     debugImplementation 'com.squareup.leakcanary:leakcanary-android:2.4'
