@@ -72,7 +72,7 @@ dependencies {
     implementation "androidx.camera:camera-lifecycle:$camerax_version"
 
     // CameraX View class
-    implementation 'androidx.camera:camera-view:1.0.0-alpha12'
+    implementation 'androidx.camera:camera-view:1.4.1'
 
     // CameraX Extensions library
     implementation "androidx.camera:camera-extensions:1.0.0-alpha12"
